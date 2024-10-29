@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    /* body要素はデフォルトで、画面全体の幅を占めるため、100vw（ビューポートの幅）になる。 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+    /*  text-align は要素の中の文字等を真ん中にする。block要素に対してつける。 */
+    max-width: 90%; 
+    /* bodyの幅（ビューポートの幅）の90％を維持して相対的に変わる。最大で親要素の90%の幅になる。max-widthは制限だけをかけていて、実際の幅は他の要素や内容によって狭くなることもある */
+}
+
+.margin-auto {
+    width: 80%;
+    margin:0px auto;
+    background-color: #d1e7dd;
+    padding: 20px;
+}
+
+ /*  下記は無視 */
+.text-align {
+    width: 80%;
+    background-color: #cfe2ff;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.absolute-center {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f8d7da;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container {
+    display: grid;
+    place-content: center;
+    height: 200px;
+    background-color: #fff3cd;
+    margin: 20px auto;
+}
+
+.grid-item {
+    padding: 20px;
+    background-color: #856404;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #d9e9e9;
+    margin: 20px auto;
+}
+
+.flex-item {
+    padding: 20px;
+    background-color: #0c63e4;
+    color: white;
+}
