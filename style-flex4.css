@@ -1,0 +1,33 @@
+body {
+    height: 100vh;
+    max-width: 90%;
+}
+
+/* 中央に配置されるブロック */
+.container{
+    background-color: #d1e7dd;
+    width: 80%;
+    height: 90%;
+}
+
+
+.flex-container{
+    width: 50%;
+    height:50%;
+    background-color: red;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* text-align: center; */
+}
+
+/* 子要素のwidthはautoでコンテンツの長さになる。高さ（align-items）はstretch（初期値）… 親要素の高さ、またはコンテンツの一番多い子要素の高さに合わせて広げて配置 */
+.flex-item1{
+    background-color: yellow;
+    width: 50%;
+}
+
+.flex-item2{
+    background-color: blue;
+    /* flex: 1; */
+}

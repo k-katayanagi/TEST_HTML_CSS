@@ -1,0 +1,31 @@
+body {
+    height: 100vh;
+    max-width: 90%;
+}
+
+/* 中央に配置されるブロック */
+.margin-container{
+    margin: 0 auto;
+    background-color: #d1e7dd;
+    width: 80%;
+    height: 30%;
+    line-height: 100px; 
+}
+
+/* 高さ30%の赤いブロック */
+.margin-block {
+    height: 30%;
+    background-color: red;
+}
+
+/* インラインブロックの青いブロック */
+.margin-inline-block {
+    height: 30%;
+    display: inline-block;
+    background-color: blue;
+    vertical-align: middle;
+/* なぜか効かない */
+}
+
+
+

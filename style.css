@@ -1,0 +1,43 @@
+body {
+    height: 100vh;
+    max-width: 90%;
+}
+
+/* 中央に配置されるブロック */
+.margin-container{
+    text-align: center;
+    margin: 0 auto;
+    background-color: #d1e7dd;
+    width: 80%;
+    height: 30%;
+}
+
+/* 高さ30%の赤いブロック */
+.margin-block {
+    height: 30%;
+    background-color: red;
+}
+
+/* インラインブロックの青いブロック */
+.margin-inline-block {
+    height: 30%;
+    display: inline-block;
+    background-color: blue;
+    vertical-align: middle;
+/* なぜか効かない */
+}
+
+
+
+/* 中央揃えのコンテナ */
+.text-align-container {
+    text-align: center;
+    background-color: #cfe2ff;
+    width: 80%;
+    height: 30%;
+}
+
+
+.text-align{
+background-color: yellow;
+}

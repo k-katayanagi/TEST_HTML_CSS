@@ -1,0 +1,22 @@
+body {
+    height: 100vh;
+    max-width: 90%;
+}
+
+/* 中央に配置されるブロック */
+.containe{
+    background-color: #d1e7dd;
+    width: 80%;
+    height: 30%;
+    position: relative;
+}
+
+/* 高さ30%の赤いブロック */
+.absolute-center{
+    position:absolute;
+    top: 50%; /* 開始の位置が親要素の半分から */
+    left: 50%; /* 開始の位置が親要素の半分から */
+    transform: translate(-50%,-50%);
+    background-color: red;
+}
+
